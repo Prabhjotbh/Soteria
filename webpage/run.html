@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Python Script</title>
+</head>
+<body>
+    <h1>Run Python Script</h1>
+    
+    <button id="runPython">Run Python Script</button>
+    
+    <div id="output"></div>
+
+    <script>
+        document.getElementById("runPython").addEventListener("click", function() {
+            fetch("script1.py")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("output").innerHTML = "<pre>" + data + "</pre>";
+                });
+        });
+    </script>
+</body>
+</html>

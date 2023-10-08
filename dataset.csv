@@ -1,0 +1,1113 @@
+Approved: 2023-07-31 ,Measurement System Identification: 
+ NASA TECHNICAL HANDBOOK ,NASA-HDBK-8709.25 
+National Aeronautics and Space Administration ,
+,Approved: 2023-07-31 
+,Superseding NASA-HDBK-8709.25 
+,V1.3 
+Human Factors Handbook V1.4 ,
+Procedural Guidance and Tools ,
+,,NASA-HDBK-8709.25 ,
+,,DOCUMENT HISTORY LOG ,
+,Document,,
+Status ,,Approval Date ,Description 
+,Revision ,,
+Change ,4,2023-07-31 ,Language has been neutralized so it can be used
+,,,for both negative factors (Red-Light) and positive
+,,,factors (Green-Light). Updated Agency
+,,,nanocodes for FY2022. Other editorial changes. 
+,,,2 of 38 
+NASA-HDBK-8709.25 
+FOREWORD 
+This NASA technical standard provides uniform engineering and technical requirements for
+"processes, procedures, practices, and methods that have been endorsed as standard for NASA"
+"facilities, programs, and projects, including requirements for selection, application, and design"
+criteria of an item. 
+[The importance and expected impact of the standard and why it was developed.] 
+This standard establishes… [Who (roles or organizations) were involved in its
+"development]Requests for information, corrections, or additions to this standard should be"
+submitted to the NASA Office of Safety and Mission Assurance by email to Agency-SMA-
+Policy-Feedback@mail.nasa.gov or via the “Email Feedback” link at https://standards.nasa.gov. 
+3 of 38 
+,NASA-HDBK-8709.25 
+,TABLE OF CONTENTS 
+Document History Log ................................................................................................................. 2 ,
+Foreword ........................................................................................................................................ 3 ,
+Table of Contents .......................................................................................................................... 4 ,
+List of Appendices ......................................................................................................................... 5 ,
+List of Figures ................................................................................................................................ 5 ,
+1,SCOPE ............................................................................................................................ 6 
+1.1,Purpose ............................................................................................................................. 6 
+1.2,Applicability .................................................................................................................... 6 
+2,REFERENCE DOCUMENTS ...................................................................................... 6 
+2.1,General ............................................................................................................................. 6 
+2.2,Government Documents .................................................................................................. 7 
+2.3,Non-Government Documents .......................................................................................... 7 
+2.4,Order of Precedence ......................................................................................................... 7 
+3,"ACRONYMS, ABBREVIATIONS, SYMBOLS AND DEFINITIONS (AS"
+,APPLICABLE) .............................................................................................................. 7 
+3.1,Acronyms and Abbreviations .......................................................................................... 7 
+3.2,Definitions........................................................................................................................ 8 
+4,TRAINING AND TOOLS ............................................................................................. 9 
+4.1,Training Courses .............................................................................................................. 9 
+4.2,Tools .............................................................................................................................. 11 
+5,EVENT CODE ............................................................................................................. 15 
+5.1,How to Code .................................................................................................................. 15 
+5.2,NASA Mishap Investigation System ............................................................................. 16 
+5.3,Human Factors Investigators Checklist ......................................................................... 16 
+5.4,Primary Review ............................................................................................................. 16 
+5.5,Secondary Review ......................................................................................................... 17 
+6,ANALYSIS CHARTS FOR TRACKING AND TRENDING ................................. 17 
+6.1,Tracking and Trending ................................................................................................... 17 
+6.2,Reports/Briefs ................................................................................................................ 19 
+6.3,The NASA Scientific and Technical Information Program ........................................... 19 
+7,TAXONOMY ............................................................................................................... 20 
+7.1,Acts ................................................................................................................................ 20 
+7.2,Preconditions.................................................................................................................. 21 
+7.3,Supervision .................................................................................................................... 29 
+7.4,Organization ................................................................................................................... 30 
+8,DIRTY DOZEN ........................................................................................................... 32 
+,4 of 38 
+,NASA-HDBK-8709.25 
+9,RED-LIGHT / GREEN-LIGHT: MISHAP INVESTIGATION AND RISK
+,ASSESSMENT ............................................................................................................. 33 
+9.1,Mishap Investigation:..................................................................................................... 33 
+9.2,New Approach: .............................................................................................................. 34 
+9.3,From lagging to leading indicators: ............................................................................... 34 
+9.4,Implementation of RL/GL: ............................................................................................ 34 
+,LIST OF APPENDICES 
+,Acknowledgements ........................................................................................... 36 
+,References ......................................................................................................... 38 
+,LIST OF FIGURES 
+Figure 1. Quick Reference Guide………………………………………………………… …….12 ,
+Figure 2. Quick Reference Guide Definitions…………………………………………… ……..13 ,
+Figure 3. Neutralized HFACS Investigators Checklist………………………………… ………15 ,
+Figure 4. Nanocode Chart……………………………………………………………………… .18 ,
+Figure 5. Dirty Dozen Example………………………………………………………………….34 ,
+Figure 6. RL/GL SA HF Overview……………………………………………………………....35 ,
+,5 of 38 
+,NASA-HDBK-8709.25 
+,DOCUMENT TITLE 
+1,SCOPE 
+1.1,Purpose 
+This NASA Handbook defines the NASA Human Factors Analysis and Classifications System ,
+(NASAHFACS) tool and provides guidance on the use of NASAHFACS. It illustrates the,
+"NASAHFACS model; describes the data gathering, coding, trending, and tracking process; and",
+outlines training and other related resources to support the practice of NASAHFACS throughout ,
+NASA. ,
+1.2,Applicability 
+1.2.1 ,This NASA Technical Handbook is applicable to NASA Headquarters and NASA
+"Centers, including Component Facilities and Technical and Service Support Centers. It may also",
+"apply to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center),",
+"other contractors, recipients of grants, cooperative agreements, or other agreements only to the",
+"extent specified or referenced in the applicable contracts, grants, or agreements. ",
+1.2.2 ,"This NASA Technical Handbook, or portions thereof, may be referenced in contract,"
+"program, and other Agency documents for guidance. ",
+1.2.3 ,The guidance in this NASA Technical Handbook does not supersede or waive existing
+guidance found in other Agency documentation. Conflicts between this NASA Technical,
+Handbook and other documents will be resolved by the delegated Technical Authority. ,
+1.2.4 ,"In this NASA Technical Handbook, the terms “may” denotes a discretionary privilege"
+"or permission, “can” denotes statements of possibility or capability, “should” denotes a good",
+"practice and is recommended but not required, “will” denotes expected outcome, and “are/is”",
+denotes descriptive material. ,
+2,REFERENCE DOCUMENTS 
+2.1,General 
+2.1.1 ,The documents listed in this section provide references supporting the guidance in this
+NASA Technical Handbook. ,
+2.1.2 ,The latest issuances of referenced documents apply unless specific versions are
+designated; use of a version other than as designated has to be approved by the delegated,
+Technical Authority. ,
+2.1.3 ,Reference documents may be accessed at https://standards.nasa.gov or obtained directly
+"from the Standards Developing Body, other document distributors, or the Office of Primary",
+Responsibility for this NASA Technical Handbook. ,
+,6 of 38 
+,NASA-HDBK-8709.25 ,
+2.2,Government Documents ,
+2.2.1 ,NASA ,
+,NPD 1000.0 ,NASA Governance and Strategic Management Handbook 
+,NPD 8700.1 ,NASA Policy for Safety and Mission Success 
+,NPR 7120.5 ,NASA Space Flight Program and Project Management
+,Requirements ,
+,NPR 7900.3 ,Aircraft Operations Management 
+,NPR 8621.1 ,NASA Procedural Requirements for Mishap and Close Call
+,"Reporting, Investigating, and Recordkeeping",
+,NPR 8705.6 ,"Safety and Mission Assurance (SMA) Audits, Reviews,"
+,and Assessments ,
+,NPR 8715.1 ,NASA Occupational Safety and Health Programs 
+,NASA-HDBK-8709.22 ,"Safety and Mission Assurance Acronyms, Abbreviations,"
+,and Definitions ,
+2.2.2 ,Non-NASA ,
+,DOD HFACS 8.0 ,Guidance and Training 
+,DOE-HDBK-1208-2012 ,"Volume II, Accident and Operational Safety Analysis "
+2.3,Non-Government Documents ,
+,Safety Human Incident & Error Learning Database (SHIELD) ,
+2.4,Order of Precedence ,
+2.4.1 ,The guidance established in this NASA Technical Handbook do not supersede or waive,
+existing guidance found in other Agency documentation. ,,
+2.4.2 ,Conflicts between this NASA Technical Handbook and other documents will be,
+resolved by the delegated Technical Authority. ,,
+3,"ACRONYMS, ABBREVIATIONS, SYMBOLS AND DEFINITIONS ",
+(AS APPLICABLE) ,,
+3.1,Acronyms and Abbreviations ,
+,HFTF ,Human Factors Task Force 
+,7 of 38 ,
+,NASA-HDBK-8709.25 ,
+,MIB ,Mishap Investigation Board 
+,NASAHFACS ,National Aeronautics and Space Administration Human Factors
+,Analysis and Classification System ,
+,NMIS ,NASA Mishap Information System 
+,SATERN ,"System for Administration, Training, and Educational Resources"
+,for NASA ,
+,STRIVES ,"Scientific, Technical and Research Information discoVEry"
+,System ,
+3.2,Definitions ,
+,"Human Factors. a. A body of scientific facts about human characteristics, capabilities,",
+,"and behavior. The term includes, but is not limited to, principles and applications in the",
+,"areas of human engineering, personnel selection, training, life support, job performance",
+,"aids, and human performance evaluation. ",
+,"b. A body of information about human abilities, human limitations, and other human",
+,characteristics from a physical and psychological perspective relevant to the,
+,"design,operations, and maintenance of complex systems) ",
+,Human Factors Analysis. The study of how people interact with their environment.,
+,"Physiological, psychological, and organizational behaviors are evaluated. Human",
+,"factors analysis is an important component of mishap investigation. Determining why,",
+,"how, and where human behaviors contributed to mishaps and close calls is key to",
+,preventing future mishaps. ,
+,Human Factors Investigator. An investigator with expertise in human factors and,
+,mishap causation who has primary responsibility to assist in data collection and ,
+,analysis; determine the manner in which human factors caused or contributed to the,
+,mishap or close call; evaluate relevant human error and determine its root causes; and,
+,generate recommendations to eliminate or reduce error occurrence or minimize the,
+,error's negative effects to prevent the occurrence of a similar mishap. ,
+,Mishap Investigation Board. A NASA-sponsored board tasked to investigate the,
+,mishap or close call and to generate the mishap investigation report in accordance with,
+,the requirements specified in this NPR. ,
+,8 of 38 ,
+,NASA-HDBK-8709.25 
+4,TRAINING AND TOOLS 
+4.1,Training Courses 
+4.1.1 ,The following one-time training courses are required for all Human Factors Task Force
+(HFTF) members and recommended for any individual tasked with participating/performing,
+mishap investigations. ,
+4.1.2 ,NASAHFACS Overview Course: (COURSE SMA-HQ-WBT-227)
+This course is a 1-hour overview course that presents an overarching look at Human Factors and,
+"the NASAHFACS method. It explains the methodology, concepts, and terms. The course is",
+designed for; ,
+• ,Executive-level personnel that wish to learn more about the NASAHFACS Program
+• ,The general NASA audience who wants an introduction of NASAHFACS
+• ,HFACS certified personnel who need a refresher or learn about updates to the Program 
+• ,A pre-requisite to NASA personnel that want to attend the in-person NASAHFACS
+,Certification (SMA-SAFE-OSMA-4009). 
+4.1.3 ,NASAHFACS Certification: (SMA-SAFE-OSMA-4009)
+"Once a year, a NASA Center will host the NASAHFACS Certification in-person. The instructor",
+led course covers the concepts and information necessary to perform Human Factors analyses,
+"and addresses how to code Human Factors and mishaps, how to contribute to the Agency",
+"database, and how to use HFACS proactively. Activities consist of case studies and group",
+exercises. Students need to achieve a minimum of 70% to pass the final exam. Renewal of,
+certification is required every five years through the one-hour NASAHFACS Overview,
+"(COURSE SMA-HQ-WBT-227) System for Administration, Training, and Educational",
+Resources for NASA (SATERN) course. ,
+Students will receive a copy of the NASA Office of Safety and Mission Assurance Human,
+"Factors Handbook along with the Quick Reference Guide, The Human Factors Investigators",
+"Checklist, and NASAHFACS Certification of Completion. ",
+Suggested Courses and Readings prior to attendance:,
+Introduction to Human Factors in Mishap and Close Call Investigation (SMA-001-07). This,
+course is a pre-requisite for the classroom course Human Factors in Mishap and Close Call,
+Investigation (SMA-SAFE-OSMA-4004). The content provides additional detail to introductory,
+concepts and allows students the opportunity to practice. Students learn about factors that affect,
+"human performance, how those factors can cause or contribute to the occurrence of incidents,",
+and how to apply the acquired Human Factors knowledge and skills to relevant investigation,
+activities. Topics covered include internal and external performance-shaping factors; the,
+"relationship of performance shaping factors to human events; human error, human conditions;",
+"and the different types of human events, errors, and conditions. Also covered is the",
+,9 of 38 
+,NASA-HDBK-8709.25 
+"identification, evaluation, and selection of appropriate barriers, controls, and amelioration",
+methods as they relate to Human Factors. ,
+NASA Human Factors in Mishap Investigation (SMA-002-15). This course provides students,
+with basic concepts and information necessary to perform Human Factors analyses in mishap,
+and close call investigations. (SMA-002-15) is an equivalent version of the instructor-led course,
+"Human Factors in Mishap Investigation (SMA-SAFE-OSMA-4004), and an expansion of the",
+Web-based course ,
+Human Factors in Mishap Investigation (SMA-SAFE-OSMA-4004). This course provides,
+students with basic concepts and information necessary to perform Human Factors analyses in,
+mishap and close call investigations. It is an expansion of the Web-based Human Factors in,
+"Mishap Investigation course (a prerequisite to this course), by providing additional detail to the",
+"introductory concepts, and focusing on ensuring students have many opportunities to practice.",
+This is an activity-based course in which students learn about factors that affect human,
+"performance, how those factors can cause or contribute to the occurrence of incidents, and how",
+to apply the acquired Human Factors knowledge and skills to relevant investigation activities.,
+Topics covered include internal and external performance-shaping factors; how those relate to,
+"human events; human error; human conditions; and the different types of human events, errors,",
+"and conditions. Identification, evaluation, and selection of appropriate barriers, controls, and",
+amelioration methods are also covered. ,
+Jens Rasmussen (SRK) (1986) ,
+• ,Skill-Based Errors 
+• ,Rule-Based Errors 
+• ,Knowledge-Based Errors 
+James Reason ,
+• “Human Error” (1990) ,
+• “Managing the Risks of Organizational Accidents” (1997) ,
+• “The Human Contribution” (2008) ,
+"Nancy Leveson, Systems-Theoretic Accident Model and Processes (STAMP) (1998) ",
+• ,Identifies Human Factors in a system and their relationships to one another 
+Erik Hollnagel (2004) ,
+• ,Resilience 
+• ,Over 350 publications 
+• ,Safety II 
+,10 of 38 
+,NASA-HDBK-8709.25 
+4.2,Tools 
+4.2.1 ,The Quick Reference Guide (QRF) provides practitioners a comprehensive structure of
+"NASAHFACS, including the tiers, categories, sub-categories, and nanocodes. Additionally, the",
+QRF provides high-level category definitions for each of the 19 categories. The Human Factors,
+Investigator Checklist aids mishap investigators in assessing both the positive and negative,
+factors associated with an event. Each category provides areas for “Green-Lights” and “Red-,
+"Lights”, as well as definitions for each category within the tiers. ",
+,11 of 38 
+NASA-HDBK-8709.25 
+Figure 1: Version 1.4 Quick Reference Guide 
+12 of 38 
+NASA-HDBK-8709.25 
+Figure2: Version 1.4 Quick Reference Guide Definitions 
+Human Factors Investigators Checklist 
+13 of 38 
+,NASA-HDBK-8709.25 ,
+EVENT: ,,
+NAME OF INVESTIGATOR(S): ,,
+,EVENT DESCRIPTION: ,
+RED-LIGHT FACTORS ,ACTS (check all that apply) ,GREEN-LIGHT FACTORS 
+,DECISION-MAKING: When conscious choices are,
+ ,acted upon and are associated with an event. , 
+,SKILL-BASED: When a learned behavior or action,
+ ,"performed without significant conscious thought (e.g.,", 
+,automatized behavior) is associated with an event. ,
+,PERCEPTION: When the sensory interpretation of an,
+,"object, threat, or situation (such as visual, auditory,",
+ ,"proprioceptive, or vestibular) is associated with an", 
+,event. ,
+,COMPLIANCE: When willful adherence or disregard,
+ ,of the rules or protocol contributes to an event., 
+,Compliance or non-compliance is intentional. ,
+RED-LIGHT FACTORS ,PRECONDITION (check all that apply) ,GREEN-LIGHT FACTORS 
+,"PHYSICAL ENVIRONMENT: When weather, climate,",
+,"buildings, natural surroundings, wildlife, or “house-",
+ ,keeping” create conditions affecting the actions of the, 
+,individual. ,
+,14 of 38 ,
+,NASA-HDBK-8709.25 ,,
+,TECHNOLOGICAL ENVIRONMENT: When,,
+,automation or the design of the work setting create,,
+ ,conditions affecting the actions of an individual or,, 
+,team and contributes to an event. ,,
+,SPACE ENVIRONMENT: When unique non-Earth,,
+ ,conditions affect the practices and,actions or inactions, 
+,of an individual or team. ,,
+,INFORMATION ENVIRONMENT: When the,,
+,"interactions among individuals, crews, and teams",,
+ ,create conditions that influence the preparation and /,, 
+,or performance of a mission. ,,
+,FITNESS / READINESS: When an individual’s,,
+,preparation and / or readiness influence the,,
+ ,performance of an action or mission and contributes,, 
+,to an event. ,,
+,"PSYCHOLOGICAL: When emotion, personality, or",,
+ ,attitude of an individual or team experiences create,, 
+,conditions that affect performance. ,,
+,PHYSIOLOGICAL: When an individual’s physical,,
+ ,"state (e.g., proprioceptive, fatigue, respiratory)",, 
+,functioning creates conditions that impact an event. ,,
+,"PERCEPTUAL: When sensory inputs (visual,",,
+,"auditory, or vestibular) create a condition of",,
+ ,"perception (or misperception) of an object, threat, or",, 
+,situation. ,,
+RED-LIGHT FACTORS ,SUPERVISION (check all that apply) ,,GREEN-LIGHT FACTORS 
+,"OVERSIGHT: When supervision such as guidance,",,
+,"oversight, training, and / or management, are",,
+ ,associated with preconditions and/or actions related,, 
+,to an event. ,,
+,PLANNING: When supervision assess the hazards of,,
+,"an operation and considers associated risks,",,
+,,, 
+,"proficiency, experience, capability, and / or crew flight ",,
+,makeup for the task or mission. ,,
+,ACCOUNTABILITY: When supervisory attention to,,
+,"known deficiencies among personnel, equipment,",,
+ ,"processes, and / or procedures influence conditions",, 
+,related to an event. ,,
+,SUPERVISORY COMPLIANCE: When supervisor’s,,
+ ,willful adherence or disregard of the rules or protocol,, 
+,is associated with an event. ,,
+RED-LIGHT FACTORS ,ORGANIZATION (check all that apply) ,,GREEN-LIGHT FACTORS 
+,"CLIMATE / CULTURE: When the attitudes, values,",,
+ ,"beliefs, or morale impact operations and / or",, 
+,operational risk. ,,
+,OPERATIONS: When the organizational processes,,
+,"and / or procedures (e.g., structure, tempo, risk",,
+ ,,, 
+,"management, oversight, publications, training) impact",,
+,operations. ,,
+,"RESOURCES: When the allocation, availability, or",,
+,"condition of personnel, equipment, facilities, and",,
+ ,monetary assets necessary for an organization to,, 
+,accomplish a mission impact operations. ,,
+,Figure 3: Neutralized HFACS Investigators Checklist ,,
+5,EVENT CODE ,,
+5.1,How to Code ,,
+Several investigative tools exist. Investigators can use this NASA Handbook along with the,,,
+Quick Reference Guide (QRG) during the analysis. Another tool is the Human Factors,,,
+,15 of 38 ,,
+,NASA-HDBK-8709.25 
+"Investigators Checklist. Prior to implementation, check the OSMA Human Factors Web page",
+(sma.nasa.gov/sma-disciplines/human-factors) to ensure this is the latest version of the,
+"NASA Handbook, the Investigators Checklist, and the QRG. In addition to investigative tools, a ",
+list of Center Points of Contact (POCs) is maintained at this Web page. These POCs are trained,
+"in NASAHFACS and may assist in performing the analysis, utilizing the NASA Mishap",
+"Information System (NMIS), or Human Factors report writing. Enter Human Factors data into",
+NMIS using the NMIS Human Factors module. Events and coding from NMIS are included in,
+"the Agency’s Annual Human Factors Report. For Type A, Type B, or high-visibility events, a",
+NASAHFACS analysis will be performed by the Human Factors member. If the area of,
+"investigation expertise cannot be obtained within NASA, the investigating authorities’ members",
+may be appointed from another Agency. ,
+"NPR 8621.1, Mishap and Close Call Reporting, Investigating, and Recordkeeping, requires a",
+"Human Factors analysis for Type A, B, and high-visibility events. Additionally, NPR 7900.3, ",
+"Aircraft Operations Management, requires a Human Factors analysis for all aviation Type A, B,",
+"C, D, and high-visibility close call events. ",
+5.2,NASA Mishap Investigation System 
+"If you don’t already have a NMIS account, contact your Center Mishap Program Manager to",
+gain NMIS access. This allows your entry of event data and analysis to the event. After you join,
+"the HFTF and complete certification or are assigned to a Mishap Investigation Board (MIB),",
+initiate a NASA Access Management System request for access to the Human Factors Analyst,
+role. This opens the permissions to code and provide justifications for findings within the event,
+reported in NMIS. NMIS can then produce a report for the identified Human Factors findings. ,
+"When serving on a MIB, it is helpful to review the latest version of NPR 8621.1 for required",
+SATERN training for Mishap Investigations. ,
+5.3,Human Factors Investigators Checklist 
+Those without access to the NMIS Human Factors Analyst role may use the Human Factors,
+Investigators Checklist. The Checklist is available on the OSMA Human Factors Web page,
+(sma.nasa.gov/sma-disciplines/human-factors),in the outreach section. The Checklist records
+"factors identified in each Tier, Category, and Nano-Code for tracking and trending purposes.",
+"Each block of the Checklist (except NMIS Event Number and Investigator’s Name) has a 4,000-",
+"character capacity and, when printed, allows for complete reading of the block. This Portable",
+Document Format file may be uploaded as an attachment to the NMIS Event analysis. This,
+Checklist contains an Executive Summary section to provide context to the Human Factors,
+findings. ,
+5.4,Primary Review 
+"Conduct interviews or review witness statements, Policy and Procedure documents, appropriate",
+"checklists, training records, and any other related material associated with the event. Provide",
+appropriate security and confidentiality methods as directed by other NASA requirements.,
+Perform coding of each event by use of this NASA Handbook and the QRG. Record findings on,
+the Human Factors Investigators Checklist to capture results. Provide analysis with an executive,
+,16 of 38 
+,NASA-HDBK-8709.25 
+summary incorporating all findings. Provide analysis and Human Factors Investigators Checklist,
+to Mishap Board Lead or Center Mishap Program Manager for records keeping. Retain analysis,
+and Checklists as directed by local Center retention guidelines. Utilize the electronic version of,
+this Checklist and upload as an attachment to the NMIS event to include findings in NMIS as,
+part of the record if access to Human Factors module as an analyst is not available. ,
+5.5,Secondary Review 
+"Gather all associated documents (including the written or electronic report, Corrective Action",
+"Plan, checklists, etc.) of the incident being analyzed. Review witness statements, Policy and",
+"Procedure documents, appropriate checklists or training records, and any other relevant related",
+material associated with event. Provide appropriate security and confidentiality methods as,
+directed by other NASA requirements. Perform coding of the event by use of this NASA,
+Handbook and the QRG. Record findings on the Human Factors Investigators Checklist to,
+capture results. Provide analysis with an executive summary incorporating all findings. Provide,
+analysis and Human Factors Investigators Checklist to Mishap Board Lead or Center Mishap,
+Program Manager for records keeping. Retain analysis and checklists as directed by local Center,
+retention guidelines. Utilize the electronic version of this Checklist and upload as an attachment,
+to the NMIS event to include findings in NMIS as part of the record if access to Human Factors,
+module as an analyst is not available.\ ,
+6,ANALYSIS CHARTS FOR TRACKING AND TRENDING 
+6.1,Tracking and Trending 
+"After coding, transfer the data collected / list generated from the Checklist into a simple bar",
+chart. See the example in Figure 6. This chart provides a graphic record of the factors identified,
+"and along with the Checklist Executive Summary, provides a visual context to the factors. Color",
+coding of the chart to match the QRG is beneficial. This chart may be used to report all events,
+"within a code, Center, or project / program, or an individual NMIS Event. ",
+,17 of 38 
+NASA-HDBK-8709.25 ,,,,,,,,,
+Example: Agency Nanocodes,,,,,,,,,
+OR008 Facilities/Grounds,2,,,,,,,,
+,,8,,,,,,,
+OR006 Operational Information,,4,,,,,,,
+,,5,,,,,,,
+OR004 Equipment,,6,,,,,,,
+,3,,,,,,,,
+OR002 Funding,2,,,,,,,,
+,3,,,,,,,,
+OP006 Organizational Training,,7,,,,,,,
+,,,,,,,30,,
+OP004 Program Oversight or Management,,,13,,,,,,
+,,7,,,,,,,
+OP002 Ops Tempo,,7,,,,,,,
+,,,,15,,,,,
+OC002 Climate (or Morale),,4,,,,,,,
+,,8,,,,,,,
+SV004 Currency,3,,,,,,,,
+,3,,,,,,,,
+SV002 Supervision-Failure to Enforce Existing Rules,,,10,,,,,,
+,2,,,,,,,,
+SP008 Authorized Unnecessary Hazard,,7,,,,,,,
+,,,,,22,,,,
+SP006 Proficiency,2,,,,,,,,
+,,4,,,,,,,
+SP003 Inappropriate Supervisory Pressure,2,,,,,,,,
+,3,,,,,,,,
+SP001 Led/Directed Beyond Capability,,5,,,,,,,
+,,,,15,,,,,
+SI003 Local Training Issues/Programs,,,,,22,,,,
+,1,,,,,,,,
+SI001 Supervision/Leadership/Oversight Inadequate,,,,,19,,,,
+,,,12,,,,,,
+SF001 Personnel management,1,,,,,,,,
+,1,,,,,,,,
+PP307 Currency,2,,,,,,,,
+,,7,,,,,,,
+PP303 Memory Learning Capability,1,,,,,,,,
+,1,,,,,,,,
+PP202 Fatigue (Physiological/Mental),2,,,,,,,,
+,1,,,,,,,,
+PP109 Mentally Exhausted,1,,,,,,,,
+,,5,,,,,,,
+PP106 Motivation,,8,,,,,,,
+,1,,,,,,,,
+PP104 Complacency,,,13,,,,,,
+,2,,,,,,,,
+PP102 Personality Style,2,,,,,,,,
+,,5,,,,,,,
+PA004 Distraction,,5,,,,,,,
+,,4,,,,,,,
+PA001 Channelized Attention,,5,,,,,,,
+,1,,,,,,,,
+PS002 Non-Prescribed Drugs/OTC,1,,,,,,,,
+,1,,,,,,,,
+PC007 Failure to Cross Check or Backup,,,9,,,,,,
+,,,,,,,32,,
+PC004 Miscommunication,,4,,,,,,,
+,,,10,,,,,,
+PC002 Task/Mission Planning/Briefing Inadequate,,,,18,,,,,
+,2,,,,,,,,
+PT010 Fuels or Materials,1,,,,,,,,
+,,,,,,,33,,
+PT008 Communication Equipment,2,,,,,,,,
+,,7,,,,,,,
+PT006 Workspace Incompatible with Operations,,,9,,,,,,
+,3,,,,,,,,
+PT003 Visibility Restrictions (not Weather Related),3,,,,,,,,
+,3,,,,,,,,
+PE006 Weather,1,,,,,,,,
+,1,,,,,,,,
+PE003 Hearing Affected by Environment,1,,,,,,,,
+,,7,,,,,,,
+PE001 Vision Affected by Environment,,4,,,,,,,
+,2,,,,,,,,
+AV002 - Widespread/Routine,,4,,,,,,,
+,,,,,21,,,,
+AP001 Error Due to Misperception,,,10,,,,,,
+,,,,18,,,,,
+AS005 Breakdown in Visual Scan,,4,,,,,,,
+,,6,,,,,,,
+AS003 Overcontrol/Undercontrol,2,,,,,,,,
+,,,,,19,,,,
+AS001 Inadvertent Operation,,4,,,,,,,
+,,4,,,,,,,
+AD005 Inadequate Real Time Assessment,,,,,,,,,39
+,,,11,,,,,,
+AD003 Incorrect Action Executed,,,,,21,,,,
+,1,,,,,,,,
+AD001 Correct Action Executed Too Soon,2,,,,,,,,
+0,5,10,15,20,25,30,35,40,45
+Figure 4: Nanocode Chart ,,,,,,,,,
+18 of 38 ,,,,,,,,,
+,NASA-HDBK-8709.25 
+6.2,Reports/Briefs 
+Remain mindful of Agency and local policy or procedural documents concerning Mishap,
+"Investigations, confidentiality, International Traffic in Arms Regulations, etc. Prepare briefs and",
+"/ or slides, as appropriate, to the target audience. Ensure sanitary efforts to prevent the exposure",
+"of Personally Identifiable Information, or other sensitive data to persons or entities outside of",
+NASA. ,
+6.3,The NASA Scientific and Technical Information Program 
+The NASA Scientific and Technical Information (STI) Program is a critical component in the,
+worldwide activity of scientific and technical aerospace research and development. The NASA,
+"STI Program acquires, processes, archives, announces, and disseminates NASA STI and acquires",
+worldwide STI of critical importance to NASA and the Nation. ,
+"Collected from U.S. and international sources, STI is organized according to content prior to",
+being added to the NASA STI Repository . The STI Repository is a world-class collection of,
+"STI that includes over 4.3 million metadata records and over 500,000 full-text documents. ",
+"The NASA STI Program uses the Scientific, Technical and Research Information discoVEry",
+"System (STRIVES) to standardize STI submission, review, and approval across all 10 NASA",
+field Centers. ,
+STI Program Mission ,
+• ,Supports the advancement of aerospace knowledge 
+• ,Contributes to U.S. competitiveness in aerospace research and development (R&D) by
+,helping to show the value of R&D funding and accomplishment 
+• ,Implement STI policy and align procedures with U.S. laws and NASA organizational
+,requirements 
+• ,Collects STI from all NASA Centers 
+What is STI? ,
+"STI (scientific and technical information) is defined as a paper, abstract, journal article,",
+"presentation, etc. that contains and delivers the results (the analyses of the data, facts, and",
+"resulting conclusions) of basic and applied scientific, technical, and related engineering research",
+and development. ,
+All Human Factors Annual Reports are in the STRIVES system for archival use. ,
+,19 of 38 
+,NASA-HDBK-8709.25 
+7,TAXONOMY 
+7.1,Acts 
+These influences or factors describe behavioral omissions and commissions committed by an,
+individual or team and contribute to an event. ,
+7.1.1 ,Decision-Making Events 
+When actions based on conscious choices contribute to an event. ,
+• ,AD101 Incorrect action selection. A factor when an individual mis-prioritizes and
+,executes the wrong course of action to accomplish a task and this contributes to an event. 
+• ,AD102 No action selection. A factor when an individual does not take the necessary
+,action as dictated by the situation and this contributes to an event. 
+• ,AD103 Inadequate real time assessment. A factor when an individual fails to
+,"adequately evaluate the risks associated with a course of action, and this contributes to an"
+,event. 
+• ,AD104 Ignored a caution / warning. A factor when a caution or warning is perceived
+,and understood but is ignored and this contributes to an event. 
+7.1.2 ,Skill-Based Events 
+"When a learned behavior or action performed without significant conscious thought (e.g.,",
+automatized behavior) contributes to an event. ,
+• ,AS101 Inadvertent operation. A factor when movements inadvertently activate or
+,"deactivate equipment, controls, or switches without intent to operate the equipment,"
+,"controls, or switches and this contributes to an event. This action may or may not be"
+,noticed. 
+• ,AS102 Checklist / procedural error. A factor when an individual or team accomplishes
+,the wrong written procedure / checklist or fails to accomplish the correct written
+,procedure / checklist or any portion of the written procedure / checklist and this
+,contributes to an event. 
+• ,AS103 Loss of physical coordination. A factor when a temporary failure of physical
+,"coordination, such as losing grip during a task or procedure, contributes to an event. "
+• ,AS104 Breakdown in visual scan. A factor when a failure to effectively execute learned 
+,/ practiced internal or external visual scan patterns contributes to an event. 
+• ,AS105 Task error. A factor when an individual or team accomplishes a task or function
+,"in the wrong sequence or by using the wrong technique, tool, equipment, control "
+,"(overcontrol or undercontrol), or switch and this contributes to an event. This includes"
+,20 of 38 
+,,NASA-HDBK-8709.25 
+,"inadequate Anti-G Straining Maneuver (AGSM), which is a factor when the individuals",
+,"AGSM is improper, inadequate, poorly timed, or non-existent and this leads to adverse",
+,"neuro-circulatory effects. This includes correct action execution, a factor when an",
+,individual selects the actions as dictated by the situation but performs these prematurely,
+,or belatedly. ,
+7.1.3 ,,Perception Events
+"When the sensory interpretation of an object, threat, or situation (such as visual, auditory,",,
+"proprioceptive, or vestibular) contributes to an event. ",,
+• ,"AP101 Error due to misperception (illusion, misreading gauge, or",
+,"misinterpretation). When an individual acts or fails to act based on an illusion,",
+,"misinterpretation of appropriate information, misperception of the environment, or a",
+,disorientation state and this contributes to an event. ,
+7.1.4 ,,Compliance 
+When willful adherence or disregard of the rules or protocol contributes to an event. Compliance,,
+or non-compliance is intentional. ,,
+• ,"AC101 Violation – work around, widespread, or routine. A factor when the ",
+,"individual, crew, or team recognized the consequences / risk of violating published",
+,procedures and consciously assessed and honestly determined the best course of action.,
+,Habitual violations of a single individual or small group of individuals within a unit can ,
+,constitute a routine / widespread violation if the supervisors did not routinely discipline,
+,the violators or condoned the actions. This is known as “Normalization of Deviance.” ,
+• ,"AC102 Violation – extreme violation. A factor when an individual, crew, or team",
+,intentionally violates procedures or policies without cause or need. These violations are,
+,unusual or isolated to specific individuals rather than larger groups. There is no evidence,
+,of leadership condoning these violations or lack of discipline. These violations may also,
+,be referred to as “exceptional violations” and violate accepted / taught professional,
+,expectations. ,
+7.2,,Preconditions 
+When environmental factors or conditions of individuals affect performance. ,,
+7.2.1 ,,Environmental Factors 
+"When physical, technological, spatial, or informational factors affect the practices, conditions, ",,
+and actions or inactions of an individual or team. ,,
+7.2.1.1 ,,Physical Environment 
+"When weather, climate, buildings, natural surroundings, or “house-keeping” create conditions",,
+affecting the actions of an individual or team and contributes to an event. ,,
+,,21 of 38 
+,NASA-HDBK-8709.25 
+• ,PE201 Vision affected by environment. A factor when environmental conditions affect
+,"an individual’s vision, and this contributes to an event. Example: Vision could be"
+,"impacted by lighting, smoke, haze, weather, dust, laser, snow, brownout, etc. "
+• ,PE202 Movement affected by environment. A factor when environmental conditions
+,"affect an individual’s movement, and this contributes to an event. Example: Movement"
+,"can be impacted by maneuvering forces, vibration, windblast, animals, icy ground, uneven"
+,"ground, roadway, terrain, etc. "
+• ,PE203 Hearing affected by environment. A factor when environmental conditions
+,"affect an individual’s ability to hear, and this contributes to an event. Example: Hearing"
+,"can be impacted by any type of noise, vibration, windblast, etc. "
+• ,PE204 Mental processing affected by environment. A factor when environmental
+,conditions affect an individual’s ability to mentally process or think about information
+,and this condition contributes to an event. Example: Mental processing can be impacted
+,"by any type of noise, vibration, temperature, etc. "
+• ,PE205 Heat or cold stress. A factor when an individual’s exposure to heat or cold
+,impacts the individual’s performance capabilities and contributes to an event. 
+• ,"PE206 Weather. A factor when weather conditions such as high winds, lighting / storms"
+,"within pre-declared restrictive limits, or high / low temperatures contributes to an event. "
+• ,"PE207 Housekeeping. A factor when upkeep or organization of workspaces, equipment,"
+,and materials contributes to an event. 
+• ,"PE208 Buildings. A factor when the condition, capability, or maintenance of building"
+,contributes to an event. 
+• ,PE209 Vibration Stress. A factor when an individual’s exposure to vibration impacts 
+,physical or cognitive performance and contributes to an event. Examples: Excessive
+,"exposure to blast, repeated exposure to equipment frequency (i.e., helicopters). "
+• ,"PE210 Wildlife. When animals or other non-human life contributes to an event (e.g., bird"
+,strikes). 
+7.2.1.2 ,Space Environment 
+When unique non-Earth conditions affect the practices and actions or inactions of an individual,
+or team and contributes to an event. ,
+• ,SE201 G-Factor. A factor when forces acting on a body as a result of acceleration or
+,gravity (informally described in units of acceleration equal to one g) and this contributes
+,to an event. These forces may be either positive or negative. 
+,22 of 38 
+,NASA-HDBK-8709.25 ,
+• ,"SE202 Radiation. A factor when radiation, either ionizing or non-ionizing, contributes to",
+,an event. ,
+• ,SE203 Extreme geographical separation. A factor when distances of a vehicle or crew,
+,"in space prevent timely aid, communications, or other assistance and this separation",
+,contributes to an event. ,
+• ,SE204 Extreme confinement. A factor when humans experience lengthy periods of time,
+,"together in a small space with no ability to exit the space or proximity to others, and this",
+,contributes to an event. ,
+• ,SE205 Deconditioned. A factor when the effect of long-term weightlessness creates or,
+,contributes to an event or condition. ,
+• ,SE206 Space Adaptation Syndrome (SAS). A factor during weightlessness in orbit.,
+,"Symptoms may include nausea, vomiting, anorexia, headache, malaise, drowsiness,",
+,"lethargy, paleness, and sweating, which may contribute to an event. ",
+• ,SE207 Spaceflight Associated Neuro-ocular Syndrome (SANS). A factor when,
+,changes to body fluids during long-term exposure to microgravity on the structure of the,
+,"eye, along with changes in distance and near vision of crew members,",contributes to an
+,event or condition. ,
+7.2.1.3 ,Technological Environment ,
+When automation or the design of the work setting create conditions affecting the actions of an,,
+individual or team and contributes to an event. ,,
+• ,"PT201 Seat / restraint System. A factor when the design of the seat or restraint system,",
+,"the ejection system, or seat comfort contributes to an event. ",
+• ,PT202 Instrument and warning system. A factor when instrument factors such as,
+,"design, reliability, lighting, location, symbology, size, display systems, auditory or tactile",
+,"situational awareness, or warning systems contributes to an event. ",
+• ,"PT203 Visibility restrictions (not weather related). A factor when the lighting system,",
+,"windshield / windscreen / canopy design, or other obstructions contributes to an event.",
+,This includes glare or reflections on the windshield / windscreen / canopy. Visibility,
+,restrictions due to weather or environmental conditions are captured under PE206. ,
+• ,"PT204 Controls and switches. A factor when the location, shape, size, design,",
+,"reliability, lighting, or other aspect of a control or switch contributes to an event. ",
+• ,"PT205 Systems automation. Is a factor when the design, function, reliability,",
+,"symbology, logic, or other aspect of automated systems contributes to an event. ",
+,23 of 38 ,
+,NASA-HDBK-8709.25 
+• ,"PT206 Workspace compatibility. A factor when the workspace (e.g., size, layout)"
+,contributes to an event. 
+• ,PT207 Personal equipment. A factor when the individual’s personal equipment
+,"contributes to an event. Example: Helmets, suits, gloves, etc. "
+• ,PT208 Communication equipment. A factor when the adequacy or availability of
+,communication equipment contributes to an event. This includes electronically or
+,"physically blocked transmissions. Communications can be voice, data, or multi‐sensory. "
+• ,"PT209 System configuration / condition. A factor when the integration, configuration, "
+,or condition of a system contributes to an event. Red-light example: components are
+,"incomplete, incorrect, inadequate, or degraded. "
+• ,"PT210 Material Compatibility. A factor when Petroleum, Oil, Lubricant’s “POL,” and /"
+,or other material interactions are incorrect and contributes to an event.
+7.2.1.4 ,Information Environment 
+"When interactions among individuals, crews, and teams create conditions that influence the",
+preparation and / or performance of a mission.,
+• ,PI201 Crew / team leadership. A factor when the ability of group / task leaders to
+,establish and maintain an accurate and shared understanding of the mission or actively
+,manage the distribution of tasks contributes to an event. 
+• ,"PI202 Task / mission planning / briefing. A factor when individual, crew, or team"
+,preparation associated with planning and / or briefing the task / mission contributes to an
+,event. 
+• ,PI203 Risk assessment during event or mission. A factor when a team members’
+,ability to adequately communicate changes during mission execution and adjust their
+,work accordingly contributes to an event. 
+• ,"PI204 Communication. A factor when information is misspoken, misread, or misheard, "
+,and this condition contributes to an event. This includes putting forth with proper
+,persistence. Examples: Lack of assertiveness; information not entered in maintenance
+,"logbook, engineering order, or work card; poor shift turnover. "
+• ,"PI205 Use of standard terminology. A factor when the use of clear and concise terms,"
+,"phrases, hand signals, etc., as defined by standards and training, contributes to an event. "
+• ,PI206 Cross check or challenge-response. A factor when a crew member(s) efforts to
+,actively monitor or back-up other crew members’ actions or decisions contributes to an
+,event. 
+,24 of 38 
+,NASA-HDBK-8709.25 
+• ,PI207 Rank / position imbalance. A factor when the differences in rank or position of
+,"the team or crew leader influences performance (e.g., intimidation), and contributes to an"
+,event. 
+• ,PI208 Geographical Orientation. A factor when the individual is at a different location
+,from where believed. 
+7.2.2 ,Individual Factors 
+"When factors of psychological, physiological, perceptual, or fitness affect practices, conditions, ",
+or actions of individuals or teams and contribute to an event. ,
+7.2.2.1 ,Psychological 
+"When emotion, personality, or attitude of an individual or team experiences create conditions",
+that affect performance. ,
+• ,PP201 Emotional state. A factor when the individual is under the influence of a strong
+,"positive or negative emotion, and that emotion contributes to an event. "
+• ,PP202 Personality style. A factor when the individual’s personal interaction with others
+,"contributes to an event. Examples are authoritarian, over‐conservative, over-confident, "
+,"impulsive, invulnerable, submissive, or other personality traits that result in degraded"
+,performance. 
+• ,PP203 Cognitive State. A factor when the individual’s ability to maintain a cohesive
+,awareness of events and required actions contributes to an event. Example: a state
+,characterized by confusion or lack of clear thinking. 
+• ,PP204 Attention management. A factor when the individual focuses all attention on a
+,"limited number of cues and excludes other cues of an equal or higher priority, or when"
+,"the individual has a degraded state of alertness or readiness to process information, and"
+,"this contributes to an event. Examples of this include distraction, channelized attention,"
+,"or habit pattern interference, e.g., when performing a highly automated / learned task"
+,and distracted by another cue / event that results in the interruption and subsequent failure
+,to complete the original task or results in skipping steps in the original task. 
+• ,PP205 Complacency. A factor when reduced vigilance results in a false sense of security
+,in abilities or decreased awareness of hazards associated with a task or operation and this
+,contributes to an event. 
+• ,PP206 Motivation. A factor when the individual’s willingness or drive to accomplish a
+,task / mission contributes to an event. 
+• ,PP207 Expectancy or pre-conceived notion. A factor when an individual’s mental
+,"framework anticipates a specific course of action regardless of other cues, and this"
+,contributes to an event. 
+,25 of 38 
+,NASA-HDBK-8709.25 ,
+• ,PP208 Pre-existing psychological. A factor when an individual’s history includes a,
+,qualified professional determining they met Diagnostic and Statistical Manual of Mental,
+,"Disorders criteria for a personality, psychological, or psychosocial disorder / problem, ",
+,and this psychological condition contributes to an event. ,
+• ,"PP209 Mentally exhausted / fatigued. A factor when diminished mental capability,",
+,"restricted or shortened sleep, or exhaustion associated with the effects of high operational",
+,tempo and / or lifestyle contributes to an event. Fatigue may additionally be described as,
+,"acute, cumulative, or chronic. ",
+• ,PP210 Extreme isolation. A factor when long-term separation or delayed,
+,communication contributes to an event. ,
+• ,"PP211 Team dynamics. A factor when a group, team, or organization work towards",
+,"consensus and conformity over independent critical analysis and decision-making (e.g.,",
+,"“group think”), and this condition contributes to an event. ",
+• ,PP212 Memory / learning ability. A factor when capacity to learn or remember past,
+,experiences or training affects performance and contributes to an event.,
+• ,PP213 Task saturation. A factor when the quantity or complexity of information,
+,"exceeds mental ability to process and act, and this contributes to an event. ",
+7.2.2.2 ,Physiological / Medical ,
+"When an individual’s physical (e.g., proprioceptive, fatigue, respiratory) functioning creates",,
+conditions that contribute to an event.,,
+• ,PP221 Hypoxia. A factor when insufficient oxygen supply to the body causes an,
+,"impairment of function and contributes to an event. This code includes hypoxic, hypemic,",
+,"stagnant, and histotoxic. ",
+• ,PP222 Hyperventilation. A factor when rapid breathing “over breathing” exceeds the,
+,physiological ability of the body resulting in a drop of carbon dioxide causing the,
+,individual’s performance capabilities to degrade and contributes to an event. ,
+• ,"PP223 Barotrauma (Trapped gas disorder). A factor when gasses in the middle ear,",
+,"sinuses, teeth, or intestinal tract expand or contract on ascent or descent",contributing to an
+,event. ,
+• ,PP224 Pre-existing medical condition. A factor when an individual’s pre-existing,
+,"physical illness, disease, disorder, syndrome, or injury contributes to an event. ",
+• ,PP225 Injury or illness sustained during operation. A factor when a physical illness or,
+,injury occurs during a task or mission that causes an unsafe situation and contributes to,
+,an event. ,
+,26 of 38 ,
+,NASA-HDBK-8709.25 
+• ,PP226 Physical fatigue (overexertion). A factor when an individual’s diminished
+,physical capability is due to overuse and contributes to an event. 
+• ,PP227 Spatial disorientation – incapacitating. Type 3 (Incapacitating) spatial
+,disorientation is when an individual is unable to make proper control inputs for safe
+,operation of the aircraft or system due to an extreme conflict (often extreme) between the
+,sensory systems. See Perceptual Factors (PP236) for Type 1 or Type 2. 
+• ,"*Spatial disorientation is when an individual’s ability to correctly sense a position,"
+,"motion, or attitude of a vehicle or of oneself within the fixed coordinate system provided"
+,by the surface of the Earth and the gravitational vertical contributes to an event. Spatial
+,"disorientation can be Type 1, 2, or 3. "
+7.2.2.3 ,Perceptual Factors 
+"When sensory inputs (visual, auditory, or vestibular) create a condition of perception (or",
+"misperception) of an object, threat, or situation that contributes to an event. ",
+• ,PP231 Motion illusion—kinesthetic. A factor when physical sensations of the
+,"ligaments, muscles, or joints affects the individual’s perception of orientation, motion, or"
+,acceleration and contributes to an event. 
+• ,PP232 Turning balance illusion—vestibular. A factor when stimuli acting on the
+,"balance organs in the middle ear affects the individual’s perception of orientation,"
+,"motion, or acceleration and contributes to an event. "
+• ,"PP233 Visual illusion. A factor when visual stimuli affect perception of orientation,"
+,"motion, or acceleration and contributes to an event. "
+• ,"PP234 Misperception. A factor when an individual’s perception of altitude, separation,"
+,"speed, closure rate, road / sea conditions, and / or aircraft / vehicle location contributes to"
+,an event. 
+• ,PP235 Temporal distortion. A factor when the individual experiences a compression or
+,expansion of time relative to reality and contributes to an event. This is often associated
+,with a “fight or flight” response. 
+• ,PP236 Spatial disorientation—unrecognized / recognized. Type 1 (Unrecognized) is
+,when a person’s cognitive awareness of one or more of the following varies from reality:
+,"attitude, position, velocity, direction of motion, or acceleration. Proper control inputs are"
+,not made because the need is unrealized. Type 2 (Recognized) is when recognized 
+,"perceptual confusion is induced through one or more of the following senses: visual,"
+,"vestibular, auditory, tactile, proprioception, or kinesthetic. Proper control inputs are still"
+,possible. 
+• ,*Spatial disorientation is a factor when an individual’s ability to correctly sense a
+,"position, motion, or attitude of a vehicle or of oneself within the fixed coordinate system"
+,27 of 38 
+,NASA-HDBK-8709.25 
+,provided by the surface of the Earth and the gravitational vertical contributes to an event.
+,"Spatial disorientation can be Type 1, 2, or 3. "
+7.2.2.4 ,Fitness / Readiness 
+When an individual’s preparation and / or readiness influence the performance of an action or,
+mission and contributes to an event. ,
+• ,"PF201 Alcohol. A factor when the acute, residual, or chronic effects of alcohol affect "
+,"performance, and this contributes to an event. "
+• ,PF202 Non prescribed drug / OTC medications / supplements. A factor when an
+,"individual takes any drug, other than prescribed, that affect performance, and this"
+,contributes to an event. Example: nicotine or caffeine in sufficient quantities to cause
+,impairment of normal function. 
+• ,"PF203 Prescribed medications. A factor when an individual takes any prescribed drug,"
+,"medication, or supplement that affects performance, and this contributes to an event. "
+• ,"PF204 Nutrition / hydration. A factor when an individual’s nutritional state, diet, or"
+,hydration condition contributes to an event. 
+• ,PF205 Operating with known disqualifying condition. A factor when an individual
+,"intentionally performs duties with a known disqualifying medical condition, and this"
+,condition contributes to an event. 
+• ,PF206 Experience. A factor when an individual has limited practice which affects the
+,"ability to execute the task or mission, and this condition contributes to an event. "
+• ,PF207 Proficiency. A factor when an individual’s capability to accomplish a task or
+,mission does not meet the performance levels expected from the individual’s certification 
+,"level, and this condition contributes to an event. "
+• ,PF208 Currency. A factor when an individual has not met the general training or
+,recurring training requirements for the job / weapon system and is considered non‐
+,"current, which contributes to an event. "
+• ,"PF209 Body Size / movement limitations. A factor when the size, strength, dexterity,"
+,"mobility, or biomechanical constraints of an individual contributes to an event. Note: It"
+,must be expected that the average individual qualified for that duty position could
+,accomplish the task in question. 
+• ,PF210 Physical strength & coordination. A factor when the relative physical strength
+,and / or coordination of an individual contributes to an event. Note: It must be expected
+,that the average individual qualified for that duty position could accomplish the task in
+,question. 
+,28 of 38 
+,NASA-HDBK-8709.25 
+7.3,Supervision 
+"Factors in a mishap if the methods, decisions, or policies of the supervisory chain of command",
+"directly affect practices, conditions, or individual actions and contributes to an event. ",
+7.3.1 ,Oversight 
+"When supervision such as guidance, oversight, training, and / or management, are associated",
+with preconditions and / or actions related to an event. ,
+• ,"SO301 Leadership / Modeling / Feedback. A factor when the availability, competency,"
+,"quality, behavior, or timeliness of leadership or supervision contributes to an event."
+,Examples: Direct feedback to employees; delegating authority improperly; setting
+,positive examples; creating an environment where people can speak up. 
+• ,SO302 Local Training Issues / Programs. A factor when one-time or recurrent training
+,"programs, upgrade programs, transition programs, or any other local training contributes"
+,to an event. (Note: The failure of an individual to absorb the training material in an
+,"adequate training program does not indicate a training program problem, see Precondition"
+,- Psychological category). 
+• ,SO303 Policy. A factor when policy or guidance or lack thereof results in undesired
+,outcomes and contributes to an event. 
+• ,"SO304 Interpersonal Relations. When the ability to exchange thoughts, ideas, and"
+,perspectives between a supervisor and their employee contributes to an event. 
+7.3.2 ,Planning 
+"When supervision assess the hazards of an operation and consider associated risk, proficiency,",
+"experience, capability, and / or crew make up for the task or mission. ",
+• ,SP301 Led / directed beyond experience / capability. A factor when supervisor / 
+,management assigns personnel beyond their skill level or capabilities. 
+• ,SP302 Crew / team selection. A factor when the makeup / composition of the crew or
+,team affects the collective ability to accomplish the mission or task. 
+• ,SP303 External motivation or supervisory influence. A factor when supervisory
+,demands cause an individual to feel obligated to perform a task or mission despite
+,concerns about the task or mission. 
+• ,SP304 Experience. A factor when the supervisor selects an individual whose recent
+,"experience or total experience for a specific maneuver, event, or scenario affects safe"
+,mission execution. 
+• ,SP305 Proficiency. A factor when a supervisor assigns an individual or team whose 
+,"proficiency in a task, operation, or event affects safe mission execution. "
+,29 of 38 
+,NASA-HDBK-8709.25 
+• ,SP306 Risk assessment. A factor when supervisory evaluation of risks associated with a
+,mission affects safe execution of operations. This includes the implementation of risk
+,assessment tools. 
+• ,SP307 Authorized unnecessary hazard. A factor when supervision authorizes a mission
+,or mission element that is unnecessarily hazardous without sufficient cause or need. 
+7.3.3 ,Accountability 
+"When supervisory attention to known deficiencies among personnel, equipment, processes, and / ",
+or procedures influence conditions related to an event. ,
+• ,SA301 Personnel Management. A factor when a supervisor is aware of pre-existing
+,"conflicts between operators, maintainers, or aviators who exhibit recognizable risky"
+,behaviors or unsafe tendencies and fails to institute remedial actions. 
+• ,SA302 Operations Management. A factor when a supervisor’s awareness of pre-
+,"existing hazardous practices, conditions, or guidance allows for hazardous practices"
+,within the scope of the supervisor’s authority. 
+7.3.4 ,Supervisory Compliance 
+When a supervisor’s willful adherence or disregard of the rules or protocols contributes to an,
+event. ,
+• ,SC301 Adherence to existing rules. A factor when supervision / leadership allows
+,employees to deviate from the rules or when supervision allows unwritten rules to
+,become standard. 
+• ,SC302 Qualification / Currency. A factor when supervision / leadership allows an
+,individual to perform duties who has not met the established training requirements or
+,"qualifications for the task, mission, or process and is considered non-qualified or non-"
+,current. 
+• ,SC303 Directed violation. A factor when supervision / leadership directs a subordinate
+,"to violate existing regulations, instructions, or technical guidance. "
+7.4,Organization 
+"When the shared attitudes, values, beliefs, or contractor relationships within an organization",
+impact operation and / or operational risk.,
+7.4.1 ,Climate / Culture 
+"When the attitudes, values, beliefs, or morale impact operations and / or operational risk. ",
+• ,"OC401 Culture. A factor when attitudes, beliefs, or values that are shared by the people"
+,and groups of an organization drive behavior by employees in particular situations and
+,30 of 38 
+,NASA-HDBK-8709.25 
+,control the behavior of organizational members towards one another. Use this code when
+,"these attitudes, beliefs, or values impact mission demands and / or operational risk. "
+• ,OC402 Climate (or morale). A factor when the perception of stress and / or morale
+,within an organizational climate reflects the pride or disgrace a member feels in working
+,in his or her organization and the sense of the individual’s cohesiveness within the
+,organization. Use this code when this stress or morale affects the environment and / or
+,operational risk. 
+• ,"OC403 Contractor relations. A factor when relationships, communications, or inter-"
+,operability between the organization and contractors (prime or sub) is affected and 
+,impacts the working relationship. This includes the oversight and insight. 
+7.4.2 ,Operations 
+"When the organizational processes and/or procedures (e.g., structure, tempo, risk management,",
+"oversight, publications, training) impact operations. ",
+• ,OP401 Organizational structure. A factor when the organizational structure is
+,"confusing, unwritten, or inadequate, and contributes to an event. "
+• ,"OP402 Operational tempo. A factor when the pace of deployments, workload,"
+,"additional duties, and / or ancillary requirements impact operational risk. "
+• ,OP403 Operational risk management. A factor when the potential risks of a large
+,"program, operation, or process are improperly, inadequately, or incompletely assessed"
+,and this contributes to an event. 
+• ,"OP404 Program oversight or management. A factor when acquisitions management,"
+,"design analysis (e.g., design review boards, Safety and Mission Success Review, Flight"
+,"Readiness Reviews, etc.), and program oversight or management affect a program’s"
+,ability to obtain the correct quantity / quality of equipment. 
+• ,"OP405 Publications / written guidance. A factor when the quality, quantity, acquisition "
+,"/ supply, or updating of publications, procedures, and / or written guidance affect "
+,"operational risk. Examples: Vehicle operating manuals, instructions, directives, technical"
+,"manuals, etc. "
+• ,"OP406 Organizational training. A factor when the quality, quantity, or availability of"
+,training provided by the organization affect operational risk. Examples: One-time or
+,"initial training programs, upgrade programs, transition programs, or other training that is"
+,conducted outside the local unit. 
+7.4.3 ,Resources 
+"When the allocation, availability, or condition of personnel, equipment, facilities, and monetary",
+assets necessary for an organization to accomplish a mission impact operations. ,
+,31 of 38 
+,NASA-HDBK-8709.25 
+• ,"OR401 Personnel. A factor when the quality, quantity, or selection of personnel affect "
+,"operational risk. Examples: Unit under-manned based on manning documents, selection"
+,"of personnel based on lower standards than appropriate for adequate performance,"
+,"staffing, or personnel placement appropriate for mission demands. "
+• ,"OR402 Funding. A factor when the category, quantity, allocation, or acquisition of"
+,money (financial resources) affect operational risk. Examples: Too much money for
+,"operations and maintenance, but not enough money to procure new equipment; a"
+,decrease in funds provided by the organization with the expectation to maintain current
+,mission requirements; when an organization allocates the correct funds to mitigate a
+,known risk or manage growth. 
+• ,"OR403 Material / Parts. A factor when the quality, quantity, or acquisition / supply of"
+,"consumable material affect operational risk. Examples: Availability of expendable,"
+,"consumable, or replacement parts. "
+• ,"OR404 Equipment. A factor when the quality, quantity, or acquisition / supply of"
+,equipment affect operational risk. 
+• ,"OR405 Design. A factor when the design of equipment, tools, workspace, or hardware /"
+,software affect operational risk. 
+• ,"OR406 Operational Information. A factor when the quality, quantity, or acquisition / "
+,"supply of information affect operational risk. Examples: Weather briefings / forecasts,"
+,"intelligence, operational planning material, deployment site surveys, or other information"
+,necessary for safe operations. 
+• ,OR407 Facilities / Buildings & Grounds. A factor when the quality or quantity of
+,"facilities, roads, sidewalks, outside training areas, parking lots, common areas, etc., affect "
+,operational risk. 
+8,DIRTY DOZEN 
+The OSMA Human Factors Dirty Dozen initiative is an awareness campaign that is a byproduct,
+of the Agency Human Factors Annual Report. In the spirit of Gordon Dupont’s contribution of,
+"the same name to the aviation safety community, OSMA has expanded its application to address",
+Human Factors contributing to mishaps Agency-wide. The Dirty Dozen is a top twelve list that,
+highlights the most common factors contributing to mishaps and close calls within NASA over,
+the previous fiscal year. The monetary and lost time impact is an immediately addressable issue,
+relevant to current Agency operations. ,
+"To broaden the campaign, OSMA is issuing monthly Human Factors messages with case studies",
+focused on contributing factors identified in the Dirty Dozen. The case studies are developed,
+with the intent to equip Agency stakeholders with information and mitigation strategies for,
+factors found to be the leading contributors to loss at NASA. ,
+,32 of 38 
+,NASA-HDBK-8709.25 
+, Figure 5: Dirty Dozen Example 
+9,RED-LIGHT / GREEN-LIGHT: MISHAP INVESTIGATION AND
+RISK ASSESSMENT ,
+9.1,Mishap Investigation: 
+ Learning from accidents and incidents remains a vital component of a mature safety system.,
+"Sometimes called “Safety I”1, traditional analysis focuses on understanding the underlying",
+factors associated with adverse events. Those findings drive actions and recommendations to,
+reduce their recurrence.,
+,33 of 38 
+,NASA-HDBK-8709.25 
+9.2,New Approach: 
+NASA’s newly created HF approach is more comprehensive regarding Human Factors by,
+examining the factors that impact consequences in a positive way. This latter approach to safety,
+utilizes a method colloquially referred to as a “green-light (GL)” analysis. GL analysis identifies,
+"positive aspects of a safety system to promote resilient behaviors and processes, in addition to a",
+traditional “red-light (RL)” analysis that seeks to eliminate errors of commission or omission.,
+This GL approach reflects a more robust and rigorous safety analysis that current safety,
+"programs lack. This more comprehensive system supports resilient systems, what is currently",
+referred to as “Safety II”1. ,
+9.3,From lagging to leading indicators: 
+"Beginning in 2023, the NASA Safety Culture Program uses RL/GL for analysis for its Safety",
+"Culture Survey (SCS) comments. In addition to the traditional sentiment analysis, comments are",
+distributed in their proper HF category. Below is a notional example of RL/GL from the NASA,
+SCS comments. It moves Human Factors analysis into identification of leading indicators for,
+"prevention purposes. Resilient systems use leading (e.g., survey) along with lagging (e.g.,",
+mishap) data for mission success. We believe this new taxonomy and approach has many future,
+"applications within NASA and outside of NASA in government, academia, and industry. ",
+,Figure 6: Notional RL/GL SA HF Overview 
+9.4,Implementation of RL/GL: 
+The Human Factors Program extends beyond mishap investigation. The multi-year effort from,
+2021-2023 by the HFTF to “neutralize” the taxonomy created a structure to understand areas for,
+"mitigation and reinforcement. The NMIS system includes an updated Human Factors module,",
+,34 of 38 
+NASA-HDBK-8709.25 
+"allowing for RL/GL coding. Starting in 2022, all NASA Human Factors annual reports include"
+RL/GL analysis of operational cases in the NASA Mishap Database. These annual reports are in
+"the NASA STRIVES system, available to those with required permissions. "
+35 of 38 
+NASA-HDBK-8709.25 ,
+,ACKNOWLEDGEMENTS 
+"The authors acknowledge the time and effort of the HFTF, which assisted in the taxonomy",
+"development, code descriptions, application processes, and tools. This team developed the",
+"NASAHFACS taxonomy to capture all NASA operations, as well as offer guidance on the use of",
+the system. The HFTF created and provides NASAHFACS instruction. Analysts utilize the ,
+Handbook to enter Human Factors data into the Human Factors module within the NASA,
+Mishap Information System. ,
+"Joel Lachter, Ph.D. ",Ames Research Center 
+Kevin Monk ,Ames Research Center 
+Casey Smith ,Ames Research Center 
+Nick Kiriokos ,Armstrong Flight Research Center 
+Alan Wallace ,Armstrong Flight Research Center 
+Andrea Muir ,Armstrong Flight Research Center 
+Nicole Barcellos ,Glenn Research Center 
+Manny Dominguez ,Glenn Research Center 
+Jim Smith ,Glenn Research Center 
+"Ruthan Lewis, Ph.D. ",Goddard Space Flight Center 
+Michael Viens ,Goddard Space Flight Center 
+Alan Micklewright ,Headquarters 
+"Marc Shepanek, Ph.D. ",Headquarters 
+Lisa DeKoker ,Headquarters 
+Rob Moreland ,Headquarters 
+Carolyn Turner ,Headquarters 
+Chris Warren ,Headquarters 
+Cesar Romano ,Jet Propulsion Laboratory 
+Trent Kingery ,Johnson Space Center 
+"Gordon Vos, Ph.D. ",Johnson Space Center 
+,36 of 38 
+NASA-HDBK-8709.25 ,
+"Tiffaney Miller Alexander, Ph.D. ",Kennedy Space Center 
+Jon Holbrook ,Langley Research Center 
+Greg Slover ,Langley Research Center 
+Michael Vincent ,Langley Research Center 
+Brooke Cannon Allen ,Marshall Space Flight Center 
+Dennis Morehouse ,NASA Safety Center 
+Adam Schabel ,NASA Safety Center 
+Ingrid Wagner ,NASA Safety Center 
+Frank Olinger ,Stennis Space Center 
+Joe Weiner ,Wallops Flight Facility 
+Susan Anderson ,Wallops Flight Facility 
+Dakota Rowland ,Wallops Flight Facility 
+Kyleigh Cox ,White Sands Test Facility 
+Acknowledgement is given to Dr. Scott Shappell and Doug Wiegmann for their feedback in the,
+development of NASAHFACS version 1.4. ,
+,37 of 38 
+NASA-HDBK-8709.25 ,
+REFERENCES ,
+"Hollnagel, E. (2014) Safety-I and safety-II: The past and future of Safety",Management.
+"Boca Raton, FL: CRC ",
+38 of 38 ,

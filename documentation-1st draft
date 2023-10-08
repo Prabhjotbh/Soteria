@@ -1,0 +1,37 @@
+# Soteria
+	Documentation
+
+	-STAR(Standards Technical Assistance Resource)
+		-Need
+		-Nasa Technical Standards
+			-Documents
+				NASA technical standards can help mission designers ensure they have the right requirements in place by providing uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for models and simulations (M&S) developed and used in NASA programs and projects. 
+		-Problems
+			-Mars Climate Orbiter(1998)
+				-Due to error in the use of units used in calculations	
+				-Mission navigation team using metric units(km,kg)
+				-Spacecraft manufacturer using commands in imperial units (mile,pound)
+				-Causing trajectory error and disintegrating the orbiter	
+				-Loss of $300 million
+			-Genesis (2004)
+				-Installed the probe's accelerometers in iverted way
+				-Erorr by Lockhead Martin, Spacecraft manufacturers
+			-Similar case in European Vega Rocket
+				-installing inverted cables
+
+		-Even the smallest of nuts, or a clamp or human error can cause a flight to engulf in flames.
+		-To solve this, STAR comes in action
+
+		Solution
+			-An ai model which will streamline, manage, and enhance the techniqal requirements
+			-It will not only give the latest requirements for the mission, but also warn about the small things which can cause erorrs,
+			-This will help in saving the time of designers, by not making them look thorugh all the standards just to find the ones related to their mission,
+			-directly receive all standards with basic and minimum keywords.
+			-it procatively suggestsrequirement improvements
+			help in reducing costly errors and remove any misunderstandings between different teams working on same mission
+
+		Learnings
+			-Technical Standards
+			-Bulletins
+			-Lessons learnt
+	

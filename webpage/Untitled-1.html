@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Document Search</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery is used for AJAX -->
+</head>
+<body>
+    <h1>PDF Document Search</h1>
+
+    <input type="file" id="pdfFile" accept=".pdf">
+    <button onclick="searchPDF()">Search</button>
+
+    <div id="searchResults"></div>
+
+    <script>
+        function processSinglePDF(pdfData) {
+            // You can replace the following code with your PDF processing logic
+            // This is just a placeholder
+            return "Search results for keyword: " + pdfData;
+        }
+
+        function searchPDF() {
+            var pdfFile = document.getElementById('pdfFile').files[0];
+            var keyword = prompt("Enter keyword:");
+            
+            if (!pdfFile || !keyword) {
+                alert("Please select a PDF file and enter a keyword.");
+                return;
+            }
+
+            var reader = new FileReader();
+
+            reader.onload = function(event) {
+                var pdfData = event.target.result;
+                var searchResults = processSinglePDF(pdfData);
+
+                document.getElementById('searchResults').innerHTML = searchResults;
+            };
+
+            reader.readAsText(pdfFile);
+        }
+    </script>
+</body>
+</html>
